@@ -7,23 +7,41 @@
   <body>
     <h1>it's work</h1>
     <form class="" action="index.html" method="post">
-      <div class="">
-        <label for="">입사일</label>
-        <input type="date" name="" value="">
-        <label for="">sal</label>
-        <input type="number" name="" value="">
-      </div>
-      <div class="">
-        <label for="">유형</label>
-        <select class="" name="">
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="6">6</option>
-        </select>
-        <label for="">가입일</label>
-        <input type="date" name="" value="">
-      </div>
-      <button type="submit" name="button">전송</button>
+    <table>
+        <colgroup>
+          <col width="30%" span="">
+          <col width="*" span="">
+          <col width="30%" span="">
+          <col width="*" span="">
+        </colgroup>
+        <tbody>
+          <tr>
+            <th><label for="">입사일</label></th>
+            <td><input type="date" name="" value=""></td>
+            <th>  <label for="">sal</label></th>
+            <td><input type="number" name="" value=""></td>
+          </tr>
+
+          <tr>
+            <th>  <label for="">유형</label></th>
+            <td><select class="" name="">
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="6">6</option>
+            </select></td>
+            <th><label for="">가입일</label></th>
+            <td><input type="date" name="" value=""></td>
+          </tr>
+          <tr>
+            <td colspan="3">
+            </td>
+            <td>
+              <button type="submit" name="button">전송</button>
+            </td>
+          </tr>
+        </tbody>
+
+      </table>
     </form>
   </body>
 </html>
